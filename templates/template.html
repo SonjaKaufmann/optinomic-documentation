@@ -1,0 +1,25 @@
+<card-title title="current_directive.title" subtitle="current_directive.description" info="current_directive.info"></card-title>
+
+
+<div ng-hide="have_data" class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <div class="alert alert-info alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>Info! </strong>Keine Daten vorhanden | No Data available.
+        </div>
+    </div>
+</div>
+
+
+<div ng-show="have_data" ng-repeat="current_result in XXX">
+    <div class="row m">
+        <div class="col-md-8 col-md-offset-2">
+
+            <div class="t_c">
+                <strong>Content</strong> <br>
+                <small>Irgendwas</small>
+            </div>
+
+        </div>
+    </div>
+</div>
