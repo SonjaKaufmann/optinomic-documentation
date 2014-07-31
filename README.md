@@ -8,6 +8,7 @@ Documentation for Optinomic Superusers.
 https://github.com/Optinomic/optinomic-documentation/tree/master/templates
 ######Content
 - [Templates](https://github.com/Optinomic/optinomic-documentation/tree/master/templates)
+- [Controllers](https://github.com/Optinomic/optinomic-documentation/tree/master/controller)
 
 
 ######Info
