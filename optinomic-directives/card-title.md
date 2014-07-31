@@ -20,7 +20,8 @@ Displays a Title, Subtitle and a 'Sub-Subtitle':
 ######`title`    
 -  Main Title:  In the above Example = "Beck-Depr..."    
 -  Mandatory   
--  Default: 'Title is undefined'     
+-  Default: 'Title is undefined'
+-  Text-Transformation: Uppercase is generated automaticaly.     
 
 
 ######`subtitle`    
