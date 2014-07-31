@@ -8,9 +8,12 @@ Templates
 The following directives are available:
 
 -	[card-title](https://github.com/Optinomic/optinomic-documentation/blob/master/optinomic-directives/card-title.md)   
--	[score-threshold](https://github.com/Optinomic/optinomic-documentation/blob/master/optinomic-directives/card-title.md)   
--	[scale](https://github.com/Optinomic/optinomic-documentation/blob/master/optinomic-directives/card-title.md)   
+-	[score-threshold](https://github.com/Optinomic/optinomic-documentation/blob/master/optinomic-directives/score-threshold.md)   
+-	[scale](https://github.com/Optinomic/optinomic-documentation/blob/master/optinomic-directives/scale.md)   
 
+
+####Pro Tips
+-	Do you have to 'repeat' things again and again. Let us build a `optinomic-directive` for you. Give sing!   
 
 
 
