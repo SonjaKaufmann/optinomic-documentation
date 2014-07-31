@@ -10,9 +10,9 @@ Displays a Title, Subtitle and a 'Sub-Subtitle':
 
 
 ####`Attributes`
-<pre>
+```
 
 <card-title title="current_directive.title" subtitle="current_directive.description" info="current_directive.info"></card-title>
 
-</pre>
+```
 
