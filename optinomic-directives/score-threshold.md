@@ -4,7 +4,7 @@ Optinomic - Directive
 
 
 ####`<scale>`
-Displays a `Standard Nine` in a nice view - With Ranges:   
+Displays a nice `Numerical Value - Graph` - with Ranges:   
 
 ![image](https://raw.githubusercontent.com/Optinomic/optinomic-documentation/master/optinomic-directives/images/score_threshold_ranges.png)
 
@@ -62,5 +62,5 @@ Where `scale_ranges` is declared in `ngController` like this:
 - If declared: Show Ranges.
 
 ######`show-percent-scale`    
-- true / false:  if true: Show some small lines to show the %.
+- true / false:  if true: Show some small lines to show the %. The example image above `Without Ranges` have set show-percent-scale="true". 
 
