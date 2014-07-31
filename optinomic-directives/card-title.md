@@ -9,10 +9,26 @@ Displays a Title, Subtitle and a 'Sub-Subtitle':
 
 
 
-####`Attributes`
+####Use it
 ```
-
 <card-title title="current_directive.title" subtitle="current_directive.description" info="current_directive.info"></card-title>
-
 ```
+
+####Attributes
+
+######`title`    
+-  Main Title:  In the above Example = "Beck-Depr..."    
+-  Mandatory   
+-  Default: 'Title is undefined'     
+
+
+######`subtitle`    
+- Subtitle:  In the above Example =  "Schwereg..."
+- if not set: no subtile will be displayed.
+
+
+######`info`    
+- Infoline:  In the above Example =   "Muster Beat..."
+- if not set: no subtile will be displayed.
+
 
