@@ -23,25 +23,29 @@ Where `current_XXX.label` is declared in `ngController` like this:
         "results": {
             "0": {
                 "question": "Soziale Orientierung",
-                "subquestion": "Ausmass, in dem eine Person anderen Menschen offen und mit positiver Grundhaltung gegenüber tritt.",
+                "sub_left": "Ausmass, in dem eine Person anderen Menschen offen und mit positiver Grundhaltung gegenüber tritt.",
+                "sub_right": "Text - showed on the right of the graph.",
                 "stanine": 0,
                 "sum_score": 0
             },
             "1": {
                 "question": "Offensivität",
-                "subquestion": "Fähigkeit, aus sich herauszugehen und im Kontakt mit anderen Menschen eigene Interessen aktiv verwirklichen zu können.",
+                "sub_left": "Fähigkeit, aus sich herauszugehen und ... verwirklichen zu können.",
+                "sub_right": "Text - showed on the right of the graph.",
                 "stanine": 0,
                 "sum_score": 0
             },
             "2": {
                 "question": "Selbststeuerung",
-                "subquestion": "Fähigkeit eines Menschen, flexibel und rational zu handeln, wobei man sich selbst bewusst als Akteur begreift.",
+                "sub_left": "Fähigkeit eines Menschen, flexibel und rational zu handeln, wobei man sich selbst bewusst als Akteur begreift.",
+                "sub_right": "Text - showed on the right of the graph.",
                 "stanine": 0,
                 "sum_score": 0
             },
             "3": {
                 "question": "Reflexibilität",
-                "subquestion": "Fähigkeit einer Person, bei anderen Menschen einen positiven bzw. gewünschten Eindruck zu erzeugen.",
+                "sub_left": "Fähigkeit einer Person, bei anderen Menschen einen positiven bzw. gewünschten Eindruck zu erzeugen.",
+                "sub_right": "Text - showed on the right of the graph.",
                 "stanine": 0,
                 "sum_score": 0
             }
