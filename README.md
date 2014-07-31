@@ -10,8 +10,7 @@ https://github.com/Optinomic/optinomic-documentation/tree/master/templates
 - [Templates](https://github.com/Optinomic/optinomic-documentation/tree/master/templates)   
 - [Controllers](https://github.com/Optinomic/optinomic-documentation/tree/master/controller)    
 - [Optinomic - Directives](https://github.com/Optinomic/optinomic-documentation/blob/master/optinomic-directives/)    
-
-
+- [Data-Preparation / Data-Functions / Calculations](https://github.com/Optinomic/optinomic-documentation/blob/master/optinomic-directives/)    
 
 ######Info
 Visit following URL to view documentation! (Coming soon)
