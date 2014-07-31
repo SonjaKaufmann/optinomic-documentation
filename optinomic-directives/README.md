@@ -7,9 +7,10 @@ Templates
 ####Optinomic - Directives
 The following directives are available:
 
--	[<card-title>](https://github.com/Optinomic/optinomic-documentation/blob/master/optinomic-directives/card-title.md)  
+-	[card-title](https://github.com/Optinomic/optinomic-documentation/blob/master/optinomic-directives/card-title.md)  
 
 
+####Last Edited
 
 
 ####Contact

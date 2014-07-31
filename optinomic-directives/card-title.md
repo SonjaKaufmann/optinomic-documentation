@@ -3,7 +3,7 @@ Optinomic - Directive
 =====================
 
 
-####<card-title>
+####`<card-title>`
 Displays a Title, Subtitle and a 'Sub-Subtitle'.
 
 
