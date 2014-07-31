@@ -3,7 +3,7 @@ Optinomic - Directive
 =====================
 
 
-####`<scale>`
+####`<score-threshold>`
 Displays a nice `Numerical Value - Graph` - with Ranges:   
 
 ![image](https://raw.githubusercontent.com/Optinomic/optinomic-documentation/master/optinomic-directives/images/score_threshold_ranges.png)
