@@ -1,3 +1,5 @@
+create or replace temp view XXX_NAME_OF_VIEW_XXX as
+
 SELECT
   patient as Optinomic_PID
 , module as Module_Name

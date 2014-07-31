@@ -11,6 +11,8 @@ Inside `Data Prep View Names` you can set the name of the 'view'.
 Inside `Data Prep View Definitions` stuff like this:
 
 ```
+create or replace temp view XXX_NAME_OF_VIEW_XXX as
+
 SELECT
   patient as Optinomic_PID
 , module as Module_Name
@@ -27,6 +29,7 @@ FROM
 
 WHERE
   module = 'Suchtdruck (Craving)'
+
 ```  
 
 
