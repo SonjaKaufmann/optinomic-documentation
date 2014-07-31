@@ -4,7 +4,7 @@ Optinomic - Directive
 
 
 ####`<card-title>`
-Displays a Title, Subtitle and a 'Sub-Subtitle':
+Displays a Title, Subtitle and a 'Sub-Subtitle':    
 ![image](https://raw.githubusercontent.com/Optinomic/optinomic-documentation/master/optinomic-directives/images/card_title.png)
 
 
@@ -31,4 +31,10 @@ Displays a Title, Subtitle and a 'Sub-Subtitle':
 - Infoline:  In the above Example =   "Muster Beat..."
 - if not set: no subtile will be displayed.
 
+
+####Pro Tips
+If you want to pass strings directly into this directive use it like this:
+```
+<card-title title="'Main Title'" subtitle="'Subtitle'" info="'Infozeile'"></card-title>
+```
 
