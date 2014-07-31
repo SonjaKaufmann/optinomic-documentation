@@ -9,19 +9,19 @@ Inside `Lime Creator` you can create as 'many' `templates` by `[Add Template]` a
 ####Templates
 Inside `templates` you can write simple HTML. Optinomic uses [Bootstrap v3.0.3]( http://getbootstrap.com/) (the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web). You can use all [Bootstrap CSS]( http://getbootstrap.com/css/) and [Bootstrap Components]( http://getbootstrap.com/components/).
 
-
-####Resources
-The following Resources are helpful:    
--	[HTML](http://lmgtfy.com/?q=HTML)  *smile*   
--	[w3schools.com/html/](http://www.w3schools.com/html/)    
--	[Twitter - Bootstrap]( http://getbootstrap.com/)    
-
+You can use also nice [Optinomic - Directives](https://github.com/Optinomic/optinomic-documentation/blob/master/optinomic-directives/) - use them!  
 
 ####Template |  Starting Point
 A good starting point for `templates` can be found here:    
 -	[Template - Starting Point](https://github.com/Optinomic/optinomic-documentation/blob/master/templates/template.html)  
 
 **note**: Note: You must replace the `XXX` (line 14) with the value given in `Lime Creator` - `Survey identifier`! 
+
+####Resources
+The following Resources are helpful:    
+-	[HTML](http://lmgtfy.com/?q=HTML)  *smile*   
+-	[w3schools.com/html/](http://www.w3schools.com/html/)    
+-	[Twitter - Bootstrap]( http://getbootstrap.com/)    
 
 
 
