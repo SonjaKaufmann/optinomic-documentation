@@ -101,6 +101,16 @@ WHERE
 ```  
 
 
+#Data-Calculations
+Whenever possible you should use `Calculations`:
+```
+VZEA090::int4 + VZEA100::int4
+``
+Remeber - you can do simple `Recalculations` here:
+```
+ESCI_Unsicherheit_ESCIU1::int4 + ( 5 - ESCI_Unsicherheit_ESCIU2::int4)
+```
+This example would be: '=IF(`value`=1; 4; IF(`value`=2; 3; IF(`value`=3; 2; IF(`value`=4; 1;0))))'
 
 ####Resources
 The following Resources are helpful:    
