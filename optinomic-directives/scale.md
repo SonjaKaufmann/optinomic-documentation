@@ -12,42 +12,54 @@ Displays a `Standard Nine` in a nice view:
 
 ####Use it
 ```
-<card-title title="current_directive.title" subtitle="current_directive.description" info="current_directive.info">
-</card-title>
-```
-
-Where `current_directive` is declared in `ngController` like this:
+    <scale scaledata="current_XXX.label" scale="9"></scale>
 
 ```
-    $scope.current_directive = {
-        "title": "Titel des Modules",
-        "description": "Unterüberschrift, 12 Aussagen.",
-        "info": $scope.patient.lastName + ' ' + $scope.patient.firstName + ' ( ' + $scope.patient.birthday + ' | ' + $scope.patient.age + ' ):'
+
+Where `current_XXX.label` is declared in `ngController` like this:
+
+```
+    $sope.current_XXX.label = {
+        "results": {
+            "0": {
+                "question": "Soziale Orientierung",
+                "subquestion": "Ausmass, in dem eine Person anderen Menschen offen und mit positiver Grundhaltung gegenüber tritt.",
+                "stanine": 0,
+                "sum_score": 0
+            },
+            "1": {
+                "question": "Offensivität",
+                "subquestion": "Fähigkeit, aus sich herauszugehen und im Kontakt mit anderen Menschen eigene Interessen aktiv verwirklichen zu können.",
+                "stanine": 0,
+                "sum_score": 0
+            },
+            "2": {
+                "question": "Selbststeuerung",
+                "subquestion": "Fähigkeit eines Menschen, flexibel und rational zu handeln, wobei man sich selbst bewusst als Akteur begreift.",
+                "stanine": 0,
+                "sum_score": 0
+            },
+            "3": {
+                "question": "Reflexibilität",
+                "subquestion": "Fähigkeit einer Person, bei anderen Menschen einen positiven bzw. gewünschten Eindruck zu erzeugen.",
+                "stanine": 0,
+                "sum_score": 0
+            }
+        }
     };
 ```
 
 ####Attributes
 
-######`title`    
--  Main Title:  In the above Example = "Beck-Depr..."    
--  Mandatory   
--  Default: 'Title is undefined'
--  Text-Transformation: Uppercase is generated automaticaly.     
+######`scaledata`    
+-  graph - data.
+
+######`scale`    
+-  must be set to '9' (scale="9") for a `Standard Nine`.
 
 
-######`subtitle`    
-- Subtitle:  In the above Example =  "Schwereg..."
-- if not set: no subtile will be displayed.
-
-
-######`info`    
-- Infoline:  In the above Example =   "Muster Beat..."
-- if not set: no subtile will be displayed.
 
 
 ####Pro Tips
-If you want to pass strings directly into this directive use it like this:
-```
-<card-title title="'Main Title'" subtitle="'Subtitle'" info="'Infozeile'"></card-title>
-```
+You should start taking other 'Modules' as a 'Starting Point'! A good start could be the module: Inventar sozialer Kompetenzen (ISK-K).
 
