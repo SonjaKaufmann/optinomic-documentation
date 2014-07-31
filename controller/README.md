@@ -22,7 +22,8 @@ MVC components in angular:
 
 
 ####Template |  Starting PointA good starting point for `ngController` can be found here:    -	[ngController - Starting Point](https://github.com/Optinomic/optinomic-documentation/blob/master/controller/controller.js)  
-   
+**note**: Note: You must replace the `XXX` (line 9) with the value given in `Lime Creator` - `Survey identifier`! 
+
 ####ResourcesThe following Resources are helpful:    -	[Javascript](http://lmgtfy.com/?q=Javascript)  *smile*   -	[AngularJS](https://angularjs.org/)    
 
 
