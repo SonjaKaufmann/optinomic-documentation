@@ -15,6 +15,16 @@ Displays a Title, Subtitle and a 'Sub-Subtitle':
 </card-title>
 ```
 
+Where `current_directive` is declared in `ngController` like this:
+
+```
+    $scope.current_directive = {
+        "title": "Titel des Modules",
+        "description": "Unterüberschrift, 12 Aussagen.",
+        "info": $scope.patient.lastName + ' ' + $scope.patient.firstName + ' ( ' + $scope.patient.birthday + ' | ' + $scope.patient.age + ' ):'
+    };
+```
+
 ####Attributes
 
 ######`title`    
