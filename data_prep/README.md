@@ -1,12 +1,12 @@
 ![image](http://www.ottiger.org/optinomic_logo/optinomic_logo_small.png)
-Templates
-=========
+Data Preparation
+================
 
 
 ####General:     
 Inside `Lime Creator` you can create a 'data-view'. Optinomic uses [PostgreSQL](http://www.postgresql.org/) as Database.
 
-####Data Preparation
+#Data Preparation
 Inside `Data Prep View Names` you can set the name of the 'view'.    
 Inside `Data Prep View Definitions` stuff like this:
 
@@ -58,14 +58,14 @@ WHERE
 
 
 ####Template |  Starting Point
-A good starting point for `ngController` can be found here:    
+A good starting point for `SQL VIEW` can be found here:    
 -	[BASIC SQL VIEW](https://github.com/Optinomic/optinomic-documentation/blob/master/data_prep/template.sql)  
 
 **Important** Overwrite `XXX_NAME_OF_VIEW_XXX` with the name of your view - same as declared @ `Data Prep View Names` 
 
 
 
-####Data-Functions
+#Data-Functions
 On the Home-Page (User-Level) of the Optinomic-App - activate module: `Data Functions` or `Datenfunktionen`. Here you can specify SQL-functions like this:
 
 ```  
@@ -89,7 +89,7 @@ In the following example - the value `Suchtdruck_1` will be recoded like this: `
 ```
 
 SELECT
-  recode_into(((cast(response AS json))->>'Suchtdruck_1'), '9', '0') as Recode_Example
+  recode_from_to(((cast(response AS json))->>'Suchtdruck_1'), '9', '0') as Recode_Example
 , *
 
 FROM 
