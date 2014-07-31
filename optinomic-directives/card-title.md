@@ -11,7 +11,8 @@ Displays a Title, Subtitle and a 'Sub-Subtitle':
 
 ####Use it
 ```
-<card-title title="current_directive.title" subtitle="current_directive.description" info="current_directive.info"></card-title>
+<card-title title="current_directive.title" subtitle="current_directive.description" info="current_directive.info">
+</card-title>
 ```
 
 ####Attributes
