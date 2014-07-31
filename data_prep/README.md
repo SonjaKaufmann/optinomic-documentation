@@ -6,6 +6,12 @@ Data Preparation
 ####General:     
 Inside `Lime Creator` you can create a 'data-view'. Optinomic uses [PostgreSQL](http://www.postgresql.org/) as Database.
 
+####Resources
+The following Resources are helpful:    
+-	[PostgreSQL](http://www.postgresql.org/)    
+-	[Google PostgreSQL for you](http://lmgtfy.com/?q=PostgreSQL)   
+
+
 #Data Preparation
 Inside `Data Prep View Names` you can set the name of the 'view'.    
 Inside `Data Prep View Definitions` stuff like this:
@@ -112,10 +118,6 @@ ESCI_Unsicherheit_ESCIU1::int4 + ( 5 - ESCI_Unsicherheit_ESCIU2::int4)
 ```
 This example would be: '=IF(`value`=1; 4; IF(`value`=2; 3; IF(`value`=3; 2; IF(`value`=4; 1;0))))'
 
-####Resources
-The following Resources are helpful:    
--	[Google PostgreSQL](http://lmgtfy.com/?q=PostgreSQL)   
--	[PostgreSQL](http://www.postgresql.org/)    
 
 
 
