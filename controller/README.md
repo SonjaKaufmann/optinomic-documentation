@@ -21,7 +21,8 @@ MVC components in angular:
 - What are [Scopes](https://docs.angularjs.org/guide/scope)?    
 
 
-####Template |  Starting PointA good starting point for `ngController` can be found here:    -	[Javascript](http://lmgtfy.com/?q=Javascript)     
+####Template |  Starting PointA good starting point for `ngController` can be found here:    -	[ngController - Starting Point](https://github.com/Optinomic/optinomic-documentation/blob/master/controller/controller.js)  
+   
 ####ResourcesThe following Resources are helpful:    -	[Javascript](http://lmgtfy.com/?q=Javascript)  *smile*   -	[AngularJS](https://angularjs.org/)    
 
 

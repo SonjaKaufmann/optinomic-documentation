@@ -4,23 +4,23 @@ function($scope) {
     // Init
     // ------------------------------------
 
-    set_nice_birthday();
-    //console.log('Patient', $scope.patient);
+    var myscope = $scope.XXX;
 
-    var myscope = $scope.isk;
+    set_nice_birthday();
 
     $scope.current_directive = {
-        "title": "Inventar sozialer Kompetenzen (ISK-K)",
-        "description": "Persönliche Verhaltensweisen und Gewohnheiten, 33 Aussagen.",
+        "title": "Titel des Modules",
+        "description": "Unterüberschrift, 12 Aussagen.",
         "info": $scope.patient.lastName + ' ' + $scope.patient.firstName + ' ( ' + $scope.patient.birthday + ' | ' + $scope.patient.age + ' ):'
     };
+
 
     // ------------------------------------
     // Functions
     // ------------------------------------
 
     function set_nice_birthday() {
-        //console.log('set_nice_birthday', $scope.patient.birthdate);
+        // Calculates and writes Age / Birthday into $sope.patient;
         var today = new Date();
         var birthDate = new Date($scope.patient.birthdate);
         var age = today.getFullYear() - birthDate.getFullYear();
@@ -28,7 +28,6 @@ function($scope) {
         if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
             age--;
         }
-        //console.log('age', age);
 
         if ($scope.patient.birthdate !== null) {
             $scope.patient.birthday = $scope.patient.birthdate.substring(0, 10);
@@ -37,8 +36,13 @@ function($scope) {
             $scope.patient.birthday = 'unknown';
             $scope.patient.age = '?';
         }
-        //console.log('$scope.patient.birthday = ', $scope.patient.birthday);
     }
+
+    function roundToOne(num) {
+        // Round a Number to 0.X 
+        return +(Math.round(num + "e+1") + "e-1");
+    }
+
 
 
     // ------------------------------------
@@ -49,6 +53,7 @@ function($scope) {
 
         // ---------------------------------------------
         // SORT (ARRAY of Objects) - datestamp ascending
+        // Sortings seems not to work properly on IE!
         // ---------------------------------------------
         myscope = myscope.sort(function(a, b) {
             var dateA = new Date(a.datestamp),
@@ -62,34 +67,6 @@ function($scope) {
         for (var i = 0; i < myscope.length; i++) {
 
             // Variablen initialisieren
-            myscope[i].label = {
-                "results": {
-                    "0": {
-                        "question": "Soziale Orientierung",
-                        "subquestion": "Ausmass, in dem eine Person anderen Menschen offen und mit positiver Grundhaltung gegenüber tritt.",
-                        "stanine": 0,
-                        "sum_score": 0
-                    },
-                    "1": {
-                        "question": "Offensivität",
-                        "subquestion": "Fähigkeit, aus sich herauszugehen und im Kontakt mit anderen Menschen eigene Interessen aktiv verwirklichen zu können.",
-                        "stanine": 0,
-                        "sum_score": 0
-                    },
-                    "2": {
-                        "question": "Selbststeuerung",
-                        "subquestion": "Fähigkeit eines Menschen, flexibel und rational zu handeln, wobei man sich selbst bewusst als Akteur begreift.",
-                        "stanine": 0,
-                        "sum_score": 0
-                    },
-                    "3": {
-                        "question": "Reflexibilität",
-                        "subquestion": "Fähigkeit einer Person, bei anderen Menschen einen positiven bzw. gewünschten Eindruck zu erzeugen.",
-                        "stanine": 0,
-                        "sum_score": 0
-                    }
-                }
-            };
 
             $scope.scale_ranges = {
                 "ranges": [{
@@ -115,6 +92,9 @@ function($scope) {
                 }]
             };
 
+            // ---------------------------------------
+            // DO SOMETHING HERE!
+            // ---------------------------------------
 
         }
 
@@ -124,5 +104,6 @@ function($scope) {
         // ------------------------------------
         $scope.have_data = false;
     }
+    // Show $sope in Developer Tools - Console 
     console.log($scope.current_directive.title + ' $scope = ', $scope);
 }
