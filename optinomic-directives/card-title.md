@@ -4,7 +4,8 @@ Optinomic - Directive
 
 
 ####`<card-title>`
-Displays a Title, Subtitle and a 'Sub-Subtitle':    
+Displays a Title, Subtitle and a 'Sub-Subtitle':   
+
 ![image](https://raw.githubusercontent.com/Optinomic/optinomic-documentation/master/optinomic-directives/images/card_title.png)
 
 
