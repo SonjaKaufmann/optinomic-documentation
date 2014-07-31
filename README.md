@@ -3,6 +3,14 @@ Optinomic - Documentation
 =========================
 
 Documentation for Optinomic Superusers.    
+
+
+https://github.com/Optinomic/optinomic-documentation/tree/master/templates
+######Content
+- [Templates](https://github.com/Optinomic/optinomic-documentation/tree/master/templates)
+
+
+######Info
 Visit following URL to view documentation! (Coming soon)
 
 
