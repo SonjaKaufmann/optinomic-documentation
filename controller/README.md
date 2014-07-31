@@ -3,28 +3,41 @@ Controller
 ==========
 
 
-####General:     Every module has inside `Lime Creator` a filed called `ngController`. Inside this `ngController` you will write the 'logic' of the given module.   
-
-####AngularJSInside `ngController` you can write Javascript. Optinomic uses [AngularJS v1.2.10]( https://angularjs.org/) (HTML enhanced for web apps!). The ngController directive specifies a Controller class; the class contains business logic behind the application to decorate the scope with functions and values.  
-The `ngController` directive attaches a controller class to the view. This is a key aspect of how angular supports the principles behind the Model-View-Controller design pattern.
+####General:     
+Every module has inside `Lime Creator` a filed called `ngController`. Inside this `ngController` you will write the 'logic' of the given module.   
 
-MVC components in angular:
+####AngularJS
+Inside `ngController` you can write Javascript. Optinomic uses [AngularJS v1.2.10]( https://angularjs.org/) (HTML enhanced for web apps!). The ngController directive specifies a Controller class; the class contains business logic behind the application to decorate the scope with functions and values.  
 
-- Model — Models are the properties of a scope; scopes are attached to the DOM where scope properties are accessed through bindings.
-- View — The template (HTML with data bindings) that is rendered into the View.
-- Controller — The ngController directive specifies a Controller class; the class contains business logic behind the application to decorate the scope with functions and values
+Model-View-Controller (MVC) components in angular:
 
-Popular Directives you where going to use are: 
-- The [ngRepeat directive](https://docs.angularjs.org/api/ng/directive/ngRepeat) instantiates a template once per item from a collection. Each template instance gets its own scope, where the given loop variable is set to the current collection item, and $index is set to the item index or key.
-- The[ngShow](https://docs.angularjs.org/api/ng/directive/ngShow) / [ngHide](https://docs.angularjs.org/api/ng/directive/ngHide) directive shows or hides the given HTML element based on the expression provided to the ngShow attribute.
-Also you should have at least a basic understanding of Data-Binding and Scopes:    
+- **Model** — Models are the properties of a scope; scopes are attached to the DOM where scope properties are accessed through bindings.
+- **View** — The template (HTML with data bindings) that is rendered into the View.
+- **Controller** — The ngController directive specifies a Controller class; the class contains business logic behind the application to decorate the scope with functions and values
+
+
+Popular Directives you where going to use are: 
+- The [ngRepeat directive](https://docs.angularjs.org/api/ng/directive/ngRepeat) instantiates a template once per item from a collection. Each template instance gets its own scope, where the given loop variable is set to the current collection item, and $index is set to the item index or key.
+- The [ngShow](https://docs.angularjs.org/api/ng/directive/ngShow) / [ngHide](https://docs.angularjs.org/api/ng/directive/ngHide) directive shows or hides the given HTML element based on the expression provided to the ngShow attribute.
+
+Also you should have at least a basic understanding of Data-Binding and Scopes:    
 - What are [Scopes](https://docs.angularjs.org/guide/scope)?    
 
 
-####Template |  Starting PointA good starting point for `ngController` can be found here:    -	[ngController - Starting Point](https://github.com/Optinomic/optinomic-documentation/blob/master/controller/controller.js)  
-**note**: Note: You must replace the `XXX` (line 9) with the value given in `Lime Creator` - `Survey identifier`! 
+####Template |  Starting Point
+A good starting point for `ngController` can be found here:    
+-	[ngController - Starting Point](https://github.com/Optinomic/optinomic-documentation/blob/master/controller/controller.js)  
 
-####ResourcesThe following Resources are helpful:    -	[Javascript](http://lmgtfy.com/?q=Javascript)  *smile*   -	[AngularJS](https://angularjs.org/)    
+**note**: Note: You must replace the `XXX` (line 9) with the value given in `Lime Creator` - `Survey identifier`! 
+
+
+####Resources
+The following Resources are helpful:    
+-	[Javascript](http://lmgtfy.com/?q=Javascript)  *smile*   
+-	[AngularJS](https://angularjs.org/)    
+-   Any other 'similar' module!
+
+
 
 
 

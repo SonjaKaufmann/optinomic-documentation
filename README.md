@@ -2,7 +2,7 @@
 Optinomic - Documentation
 =========================
 
-Documentation for Optinomic Superusers.    
+Documentation for Optinomic Superusers | Optinomic Module Developers.    
 
 
 ######Content
