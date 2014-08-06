@@ -9,6 +9,7 @@ Inside `Lime Creator` you can create a 'data-view'. Optinomic uses [PostgreSQL](
 ####Resources
 The following Resources are helpful:    
 -	[PostgreSQL](http://www.postgresql.org/)    
+-	[PostgreSQL / Documentation](http://www.postgresql.org/docs/9.4/static/index.html)
 -	[Google PostgreSQL for you](http://lmgtfy.com/?q=PostgreSQL)   
 
 
@@ -61,6 +62,20 @@ WHERE
 
 ```  
 **Tip** Or if the field `SQL` is empty - just click on the `Tables (orange)` or on the `Views (blue)` and a `SELECT *` will be created for you automaticaly. Here you see also the created `VIEW` by `create or replace temp view XXX_NAME_OF_VIEW_XXX as` from the modules as `XXX_NAME_OF_VIEW_XXX` (Rename this).
+
+
+####Joins Between Tables:     
+Thus far, our queries have only accessed one table at a time. Queries can access multiple tables at once, or access the same table in such a way that multiple rows of the table are being processed at the same time. A query that accesses multiple rows of the same or different tables at one time is called a join query. This can be done like:
+```
+select
+   * 
+from 
+   patient, survey_response 
+where 
+   survey_response.patient = patient.id
+
+```  
+
 
 
 ####Template |  Starting Point
