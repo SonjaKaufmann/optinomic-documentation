@@ -1,4 +1,6 @@
 # Summary
 
-* [Overview](/doc/overview/readme.md)
+* [Introduction](README.md)
+* [Overview](doc/overview/readme.md)
+   * Functional Charts
 
