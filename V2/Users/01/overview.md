@@ -1,13 +1,8 @@
 # Übersicht
 
-
-
 ## Funktionsprinzip
 
 
-Optinomic  Glossary
-
+Optinomic  
 
 > Verständnis ist Alles
-
-
