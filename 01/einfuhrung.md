@@ -1,3 +1,4 @@
 # Einführung
 
-http://idratherbewriting.com/documentation-theme-jekyll/
+
+Optinomic ist ein Blabla
