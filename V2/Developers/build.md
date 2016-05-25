@@ -89,7 +89,7 @@ Caused by: com.sun.mail.smtp.SMTPAddressFailedException: 553 5.1.8 <thomas.feron
 Finished: FAILURE
 ```
 
-Bei genauerer Betrachtung fällt uns der Fehler sofort auf. Der wichtige Teil ist:
+Bei genauerer Betrachtung fällt uns der Fehler sofort auf. Der für uns interessante Teil ist:
 ```
 m4:main.js:138: cannot open `includes/export.sql': No such file or directory
 ```
