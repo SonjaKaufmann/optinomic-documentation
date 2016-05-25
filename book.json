@@ -5,7 +5,7 @@
     ],
     "pluginsConfig": {
     "insert-md": {
-    "md": "#Hello world\n##Hello world again"
+    "md": "#####Optinomic GmbH\n"
   }
   }
 }
