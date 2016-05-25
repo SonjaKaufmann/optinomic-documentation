@@ -76,16 +76,9 @@ javax.mail.SendFailedException: Invalid Addresses;
 	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
 	at hudson.model.ResourceController.execute(ResourceController.java:98)
 	at hudson.model.Executor.run(Executor.java:410)
-Caused by: com.sun.mail.smtp.SMTPAddressFailedException: 553 5.1.8 <beat@optinomic.org>... Domain of sender address nobody@nowhere does not exist
-;
-  nested exception is:
-	com.sun.mail.smtp.SMTPAddressFailedException: 553 5.1.8 <thomas.feron@redspline.com>... Domain of sender address nobody@nowhere does not exist
 
-	at com.sun.mail.smtp.SMTPTransport.rcptTo(SMTPTransport.java:1686)
-	... 15 more
-Caused by: com.sun.mail.smtp.SMTPAddressFailedException: 553 5.1.8 <thomas.feron@redspline.com>... Domain of sender address nobody@nowhere does not exist
 
-	... 16 more
+Caused by: com.sun.mail.smtp.SMTPAddressFailedException: 553 5.1.8 <info@optinomic.org>... Domain of sender address nobody@nowhere does not exist;
 Finished: FAILURE
 ```
 
