@@ -55,12 +55,15 @@ Nicht vergessen: in base.opapp.m4 bei calculations (Ende des Files) anpassen!
 2.	FBn unique machen	- base.opapp.m4 anpassen (v.a. [module], [survey] & [event])
 - main.js: data_query von Export anpassen
 - scores: etwas, was ganz sicher eine Ausgabe ergibt, “Frame”, z.B.
+
+```HTML 
 include(../lib/html/optinomic/page/start.m4)
 <h3 class="md-headline">actInfo | Austritt</h3>
 <div>
     <h4 class="md-subhead">Fagerström</h4>
 </div>
 include(../lib/html/optinomic/page/end.m4)
+```
 3.	Export anpassen	Variablen-Ausgabe in Konsole nachschauen
  
 4.	Calculations	z.B. Summenbildung, Skalenbildung → ähnliche bestehende App als Vorlage
