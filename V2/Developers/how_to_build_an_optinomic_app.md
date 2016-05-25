@@ -17,8 +17,6 @@ Für Berechnungen Ergänzung v. Item-Ausgabe: score + parseInt(result['Item-Name
 a.	Templates: export.html
 b.	Includes: export.sql
 c.	Main:
-Jenkins:
-http://ci.optinomic.org/job/Apps/
-http://ci.optinomic.org/job/Apps/293/console (wobei „293“ für die jeweilige Änderung angepasst werden muss)
+
 
 
