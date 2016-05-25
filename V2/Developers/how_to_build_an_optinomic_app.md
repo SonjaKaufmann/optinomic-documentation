@@ -18,7 +18,7 @@ a.	Templates: export.html
 b.	Includes: export.sql
 c.	Main:
 
-```JS 
+
     $scope.setExport = function() {
 
         // ------------------------------------------------
@@ -42,7 +42,7 @@ c.	Main:
         $scope.d.sql_box = $scope.d.functions.getDefaultExportSettings($scope.d.dataMain.params.app_id, module_packages);
 
     };
-    ```
+
 d.	Base.opapp.m4:
 [template data_export 6 7]
 include(templates/export.html)
@@ -56,14 +56,14 @@ Nicht vergessen: in base.opapp.m4 bei calculations (Ende des Files) anpassen!
 - main.js: data_query von Export anpassen
 - scores: etwas, was ganz sicher eine Ausgabe ergibt, “Frame”, z.B.
 
-```HTML 
+
 include(../lib/html/optinomic/page/start.m4)
 <h3 class="md-headline">actInfo | Austritt</h3>
 <div>
     <h4 class="md-subhead">Fagerström</h4>
 </div>
 include(../lib/html/optinomic/page/end.m4)
-```
+
 3.	Export anpassen	Variablen-Ausgabe in Konsole nachschauen
  
 4.	Calculations	z.B. Summenbildung, Skalenbildung → ähnliche bestehende App als Vorlage
