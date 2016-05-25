@@ -1,11 +1,11 @@
 {
     "plugins": [
-        "anchors",
+        "-anchors",
         "insert-md"
     ],
     "pluginsConfig": {
-    "insert-md": {
-    "md": "#####Optinomic GmbH\n"
-  }
-  }
+        "insert-md": {
+            "md": "#####Optinomic GmbH\n"
+        }
+    }
 }
