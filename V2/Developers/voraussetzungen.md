@@ -7,6 +7,11 @@
 #### Optinomic-Apps
 
 CSS-Fragmework: Angular Material
-https://material.angularjs.org/latest/ 
 
 
+####Resources
+The following Resources are helpful:    
+-	[HTML](http://lmgtfy.com/?q=HTML)  *smile*   
+-	[w3schools.com/html/](http://www.w3schools.com/html/)    
+-	https://material.angularjs.org/latest/ 
+-	[Twitter - Bootstrap]( http://getbootstrap.com/)    
