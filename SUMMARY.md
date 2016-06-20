@@ -2,7 +2,7 @@
 
 * [1. Introduction](README.md)
 * [2. Übersicht](V2/Users/01/overview.md)
-* [3. Developers](V2/Developers/readme.md)
+* [3. Developers :file_folder:](V2/Developers/readme.md)
    * [3.1 GitHub | Repository](V2/Developers/repository.md)
    * [3.2 Optinomic - App Specification](V2/Developers/app_spezifikation.md)
    * [3.4 Jenkins - Build](V2/Developers/build.md)
