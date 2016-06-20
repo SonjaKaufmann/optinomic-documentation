@@ -1,7 +1,8 @@
 {
     "plugins": [
         "-anchors",
-        "insert-md"
+        "insert-md",
+        "anchorjs"
     ],
     "pluginsConfig": {
         "insert-md": {
