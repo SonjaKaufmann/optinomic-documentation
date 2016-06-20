@@ -1,4 +1,4 @@
 # Optinomic | Dokumentation
 
 
-Herzlich Willkommen
+:sunny: Herzlich Willkommen | Welcome 

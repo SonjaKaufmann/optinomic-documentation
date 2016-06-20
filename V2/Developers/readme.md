@@ -1,4 +1,4 @@
 # Optinomic | Entwickler - Dokumentation
 
 
-Herzlich Willkommen Optinoic - Entwickler. 
+:sunny: Herzlich Willkommen Optinoic - Entwickler. 
