@@ -6,8 +6,8 @@ We recommend "Sublime Text": A sophisticated text editor for code, markup and pr
 -	[Sublime Text](https://www.sublimetext.com/ )    
 
 
-####Resources
-The following Resources are ptentially helpful.
+#### Resources
+The following Resources are ptentially helpful:
 
 HTML:  
 -	[HTML](http://lmgtfy.com/?q=HTML)  *smile*   
@@ -18,4 +18,10 @@ CSS:
 -	[Color palette]( https://www.google.com/design/spec/style/color.html#color-color-palette)    
 -	[Icons]( https://materialdesignicons.com/)    
 -	[Twitter - Bootstrap]( http://getbootstrap.com/)    
+
+
+#### Documentation
+For writing this documentation - the follwing ressources where helpful:
+
+-	[emoji-cheat-sheet](http://www.emoji-cheat-sheet.com/)  
 

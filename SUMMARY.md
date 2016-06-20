@@ -2,7 +2,7 @@
 
 * [1.) Introduction](README.md)
 * [2.) Users ▾](V2/Users/readme.md)
-   * [2.01 | Overview](V2/Users/readme.md)
+   * [2.01 | Overview](V2/Users/overview.md)
    * [2.02 | User: Login | Change Password | Settings](V2/Users/user_settings.md)
    * [2.03 | User: Patient-Journal](V2/Users/user_journal.md)
    * [2.04 | User: Explorer](V2/Users/user_explorer.md)
@@ -12,7 +12,7 @@
    * [2.08 | Patient: Journal](V2/Users/patient_journal.md)
    * [2.09 | Patient: Address | Contact](V2/Users/patient_contact.md)
    * [2.10 | Patient: (De-)Activating Apps](V2/Users/patient_apps.md)
-   * [2.10 | Patient: Presentation Mode](V2/Users/coming_soon.md)
+   * [2.10 | Patient: Presentation Mode](V2/Users/patient_presentation_mode.md)
 * [3.) Admins ▾](V2/Admins/readme.md)
    * [3.01 | Users: Create](V2/Admins/users_create.md)
    * [3.01 | Users: Lock | Unlock](V2/Admins/users_lock_unlock.md)

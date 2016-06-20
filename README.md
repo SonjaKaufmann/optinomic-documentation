@@ -1,6 +1,10 @@
 # Optinomic | Dokumentation
 
 
-:sunny: Herzlich Willkommen | Welcome     
+Welcome & Herzlich Willkommen  
 
-[http://doc.optinomic.org/](http://doc.optinomic.org/)
+
+
+###### Documentation
+
+:books: [http://doc.optinomic.org/](http://doc.optinomic.org/)

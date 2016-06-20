@@ -1,4 +1,11 @@
 # Optinomic | Entwickler - Dokumentation
 
 
-:sunny: Herzlich Willkommen Optinoic - Entwickler. 
+:closed_book:  Welcome & Herzlich Willkommen  
+
+
+
+
+###### Documentation
+
+:books: [http://doc.optinomic.org/](http://doc.optinomic.org/)
