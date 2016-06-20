@@ -4,7 +4,8 @@
         "insert-md",
         "anchorjs",
         "collapsible-menu",
-        "hide-published-with"
+        "hide-published-with",
+        "advanced-emoji"
     ],
     "pluginsConfig": {
         "insert-md": {
