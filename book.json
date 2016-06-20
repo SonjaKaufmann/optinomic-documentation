@@ -5,7 +5,7 @@
     ],
     "pluginsConfig": {
         "insert-md": {
-            "md": "![image](http://www.ottiger.org/optinomic_logo/optinomic_logo_small.png)\n#####Optinomic GmbH | [optinomic.com](http://www.optinomic.com/)\n"
+            "md": "![image](http://www.ottiger.org/optinomic_logo/optinomic_logo_small.png)\n#####Optinomic GmbH | [optinomic.com](http://www.optinomic.com/)\n\n\n"
         }
     }
 }
