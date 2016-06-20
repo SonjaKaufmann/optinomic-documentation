@@ -1,4 +1,4 @@
-# Übersicht
+# Optinomic | Overview
 
 ## Funktionsprinzip
 
