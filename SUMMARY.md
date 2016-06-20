@@ -7,7 +7,6 @@
    * [3.2 Optinomic - App Specification](V2/Developers/app_spezifikation.md)
    * [3.4 Jenkins - Build](V2/Developers/build.md)
    * [3.5 Schritt für Schritt Anleitung](V2/Developers/how_to_build_an_optinomic_app.md)
-	   * [3.4 Schritt 1](V2/Developers/build_step_1.md)
    * [3.6 Voraussetzungen](V2/Developers/voraussetzungen.md)
 * [4. API](V2/Developers/api.md)
 * [5. Clinic - Config](V2/Developers/config.md)
