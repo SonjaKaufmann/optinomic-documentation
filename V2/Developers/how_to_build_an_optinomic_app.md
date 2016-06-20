@@ -95,3 +95,6 @@ Für Berechnungen Ergänzung v. Item-Ausgabe: score + parseInt(result['Item-Name
 a.	Templates: export.html
 b.	Includes: export.sql
 c.	Main:
+
+:beer:
+
