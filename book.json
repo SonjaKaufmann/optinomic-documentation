@@ -3,8 +3,7 @@
         "-anchors",
         "insert-md",
         "anchorjs",
-        "collapsible-menu",
-        "hide-published-with"
+        "collapsible-menu"
     ],
     "pluginsConfig": {
         "insert-md": {
