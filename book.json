@@ -2,7 +2,8 @@
     "plugins": [
         "-anchors",
         "insert-md",
-        "anchorjs"
+        "anchorjs",
+        "collapsible-menu"
     ],
     "pluginsConfig": {
         "insert-md": {
