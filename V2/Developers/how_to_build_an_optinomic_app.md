@@ -1,5 +1,5 @@
 # Schritt für Schritt Anleitung 
-:beer:
+:thumbsup:
 
 ### Erstellen einer Optinomic-App auf Basis einer Vorlage
 Diese Anleitung erklärt Schritt für Schritt die Vorgehensweise zur Erstellung einer Optinomic-App. Als Basis zur Erstellung unserer Applikation dient die Vorlage [com.optinomic.apps.template](https://github.com/Optinomic/apps/tree/master/com.optinomic.apps.template).
