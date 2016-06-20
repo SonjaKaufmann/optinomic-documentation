@@ -16,7 +16,6 @@ HTML:
 CSS:
 -	[Angular Material](https://material.angularjs.org/latest/ )    
 -	[Color palette]( https://www.google.com/design/spec/style/color.html#color-color-palette)    
+-	[Icons]( https://materialdesignicons.com/)    
 -	[Twitter - Bootstrap]( http://getbootstrap.com/)    
--	[Twitter - Bootstrap]( https://materialdesignicons.com/)    
-
 

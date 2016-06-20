@@ -1,7 +1,6 @@
 # Optinomic-App |  Specification
 
 
-
 # Note about JS/CSS
 
 When displaying a view of a module, some basic JS and CSS are included with it. The JS defines `helpers` with the following methods:
