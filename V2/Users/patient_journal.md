@@ -42,7 +42,7 @@ ____
 
 ## Add Message
 
-By clicking the `add` Button you can add some `general information` about that patient.
+By clicking the `add` or `( + )` Button you can add some `general information` about that patient.
 
 ![image](http://doc.optinomic.org/images/patient_journal_add_message.png)
 
