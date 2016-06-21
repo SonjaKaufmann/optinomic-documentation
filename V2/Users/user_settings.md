@@ -15,14 +15,16 @@ Forgot your password?  Simply enter your Email and hit the `[Zurücksetzen]` But
 ## User Settings
 After a successful login every Optinomic-User is able to save his ‘User-Settings’. If you change some settings don't forget to `[Save]` your settings. The settings are applied even when you are not saving them - but the next time you are returning to Optinomic your 'old' settings where loaded. 
 
+____
 
 ![image](http://doc.optinomic.org/images/user_settings.png)
+____
 
 
 Currently the following Settings are supported:
 
 #### Language:
-Choose your favourite language:
+Choose your favourite language.
 
 #### Sidebar:
 Choose what Sidebars are shown on your default ‘User-Explorer’. 
