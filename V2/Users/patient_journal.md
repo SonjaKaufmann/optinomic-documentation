@@ -11,9 +11,9 @@ To select which Information you want to display in the Journal you can set the f
 #### Time-Filter-Settings
 Basically you can select from what time-range you want to display data. 
 
-By enabling the Time-Filter you can set the `year` and the ` calendar-week` . Then all entries from the selected week are displayed.  
+1. By enabling the Time-Filter you can set the `year` and the `calendar-week`. Then all entries from the selected week are displayed.  
 
-By disabling the Time-Filter all entries of the patent where displayed. 
+2. By disabling the Time-Filter all entries of the patent where displayed. 
 
 
 #### Timline-Settings
@@ -23,14 +23,20 @@ You can select which type of content should be displayed in the Journal by selec
 #### Sections-Settings
 Sections are a special type of content, which is not displayed into the timeline. Instead it will be displayed as a whole block above the timeline. Also by selecting / deselecting the given Checkboxes you can decide which sections are shown.
 
+____
+
 ![image](http://doc.optinomic.org/images/patient_journal_settings.png)
+____
 
 
 ## Timeline
 
 Based on the above settings the given content is shown in a friendly timeline.
 
+____
+
 ![image](http://doc.optinomic.org/images/patient_journal_timeline.png)
+____
 
 
 ## Add Message
