@@ -6,7 +6,8 @@
         "collapsible-menu",
         "hide-published-with",
         "advanced-emoji",
-        "edit-link"
+        "edit-link",
+        "localized-footer"
     ],
     "pluginsConfig": {
         "insert-md": {
