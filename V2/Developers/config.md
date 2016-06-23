@@ -173,3 +173,11 @@ Omitting a boolean field results in the patients not being filtered by this crit
 # clinic
 
 Any object. If it contains something like `{"a": "b"}`, the variable `$clinic_a$` will be available in the email templates and contain `b`.
+
+# package_name
+
+The exact name of the package in the APT repository, e.g. `therapyserversuperclinic`.
+
+# upgrade_file
+
+Optional, by default: `/var/therapyserver/.upgrade`.
