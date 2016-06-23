@@ -13,11 +13,8 @@
             "md": "![image](http://www.ottiger.org/optinomic_logo/optinomic_logo_small.png)\n#####Optinomic GmbH | [optinomic.com](http://www.optinomic.com/)\n\n\n"
         },
         "edit-link": {
-                "base": "https://github.com/Optinomic/optinomic-documentation/edit/users/",
-                "label": {
-                    "en": "Edit",
-                    "de": "Bearbeiten"
-                }
-            }
+            "base": "https://github.com/Optinomic/optinomic-documentation/edit/users/",
+            "label": "✐"
+        }
     }
 }
