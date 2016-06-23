@@ -15,7 +15,7 @@
         },
         "edit-link": {
             "base": "https://github.com/Optinomic/optinomic-documentation/edit/users/",
-            "label": "✐"
+            "label": "Edit | Bearbeiten"
         },
         "localized-footer": {
             "filename": "FOOTER.md"
