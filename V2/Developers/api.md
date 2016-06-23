@@ -659,12 +659,12 @@ This endpoint is intended to be used on user modules, it runs the calculations w
 
 ## POST /run_component
 
-**Parameters:** `component`
+**Parameters:** `component`, `version` (optional, for the upgrader)
 
 **Responses:**
 * 204 No Content
 
-Possible values from `component` are `patient-groups`, `event-generator`, `result-fetcher`, `app-fetcher`, `overdue-reminder` and `cis-importer`.
+Possible values from `component` are `patient-groups`, `event-generator`, `result-fetcher`, `app-fetcher`, `overdue-reminder`, `cis-importer` and `upgrader`.
 
 ## GET /patients/:patient_id/annotations
 ## GET /patient_groups/:patient_group_id/annotations
