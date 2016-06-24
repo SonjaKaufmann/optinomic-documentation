@@ -1,8 +1,9 @@
-# Optinomic | Entwickler - Dokumentation
+# Optinomic | Developers - Documentation
 
 
 :closed_book:  Welcome & Herzlich Willkommen  
 
+This is the Developers-Documentation about the [Optinomic-App](http://www.optinomic.com). 
 
 
 
