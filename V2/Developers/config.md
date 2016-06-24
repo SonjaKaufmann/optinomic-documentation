@@ -161,7 +161,7 @@ The following Example would create the form below.
         "validity": 86400
     }]
 }
-
+```
 ____
 
 ![image](http://doc.optinomic.org/images/access_form.png)
