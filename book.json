@@ -8,7 +8,8 @@
         "advanced-emoji",
         "edit-link",
         "localized-footer",
-        "page-toc"
+        "page-toc",
+        "youtube"
     ],
     "pluginsConfig": {
         "insert-md": {
