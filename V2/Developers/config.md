@@ -122,6 +122,53 @@ The fields have the following format:
 
 The possible types are `input`, `textarea`, `checkbox` and `select`. For the type `select`, an additional field called `options` is required containing an array of objects of the form `{"value": "VALUE", "text": "TEXT"}`.
 
+
+### Example
+
+The following Example would create the form below.
+
+```javascript
+{
+  "access_forms": [{
+        "identifier": "Behandlungsauftrag",
+        "description": "Allgemeine Informationen bzgl. des Behandlungsauftrags.",
+        "type": "patient",
+        "title": "Behandlungsauftrag | Therapeuten",
+        "header": "Behandlungsauftrag: Es ist Ihnen kein impliziter Behandlungsauftrag zugeordnet.",
+        "fields": [{
+            "type": "select",
+            "identifier": "FormBA_Select_Reason",
+            "label": "Begründung",
+            "options": [
+                { "value": "1", "text": "Zur Fertigstellung von Berichten." },
+                { "value": "2", "text": "Notfallsituaiton." },
+                { "value": "3", "text": "Zur Vorbereitung | Geplanter Eintritt." }
+            ]
+        }, {
+            "type": "textarea",
+            "identifier": "FormBA_Textarea_Remarks",
+            "label": "Bemerkungen"
+        }, {
+            "type": "checkbox",
+            "identifier": "FormBA_Checkbox_Accept",
+            "label": "Mein Zugriff wird gespeichert. Ich habe verstanden."
+        }, {
+            "type": "input",
+            "identifier": "FormBA_Input_Something",
+            "label": "Noch etwas."
+        }],
+        "footer": "Begründen Sie warum Sie auf den oben genannten Patienten zugreifen möchten. Danke.",
+        "validity": 86400
+    }]
+}
+
+____
+
+![image](http://doc.optinomic.org/images/access_form.png)
+____
+
+
+
 # patient_accesses
 
 An array of object describing a patient access. This is to be used in conjunction with `permissions` to allow users with a certain role to acccess patient matching this patient access, i.e. this filter. These objects have the following form.
@@ -153,6 +200,8 @@ A criterion has the following possible forms:
 * `{"type": "or", "left": CRITERION, "right": CRITERION}`
 
 NB: Instead of writing `"is_male": {"type": "all"}`, you can also omit the key `is_male` altogether to have the same effect.
+
+### Example
 
 For example, to describe all the patients between the age of 12 and 18 and living in London, we can have the following patient access. Note that `lt` and `gt` are strict.
 
