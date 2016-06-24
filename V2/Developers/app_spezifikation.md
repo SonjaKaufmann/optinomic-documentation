@@ -37,7 +37,7 @@ type = patient
 * `name` is the name displayed to the user.
 * `short_description` is a small description in a few words of what the application does.
 * `version` is used for dependencies and must be formatted as such: `M.m` where M is the major version which changes only when some modifications are not compatible with the previous version and m is the minor version which changes with retro-compatible modifications. For bug fixes, the version does not need to be changed; that way, the module will automatically be updated on the servers.
-* `type` is optional and can be set to either `user` or `patient` (default). 
+* `type` is optional and can be set to either `user` or `patient` (default).
 
 ## dependencies (optional, can have many)
 
@@ -102,7 +102,7 @@ Example:
 <div>Hello, world !</div>
 ```
 
-Templates are named (any characters but whitespaces) and contain markup that is sent to the browser when calling GET /modules/com.myorganisation.apps.example/view/hello_world (see API). The two numbers are, respectively, the width and the height of the box in which they are going to be rendered. The width must be an integer between 1 and 6 and the height any positive integer. If they are not present, the default values are 6 and 4. 
+Templates are named (any characters but whitespaces) and contain markup that is sent to the browser when calling GET /modules/com.myorganisation.apps.example/view/hello_world (see API). The two numbers are, respectively, the width and the height of the box in which they are going to be rendered. The width must be an integer between 1 and 6 and the height any positive integer. If they are not present, the default values are 6 and 4.
 
 If a `<head>` tag is present, its contents is added to the appropriate place in the generated document.
 
@@ -120,7 +120,7 @@ Example:
 
 \begin{itemize}
 {% forall item %}
-  \item{Item "{%= .name %}"} 
+  \item{Item "{%= .name %}"}
 {% end %}
 \end{itemize}
 ```
@@ -135,7 +135,7 @@ PDF templates are named (any characters but whitespaces) and contain a Yate temp
   },
   "patient": [OBJECT (same as the JSON returned by the API],
   "annotations": {
-    "module": OBJECT, 
+    "module": OBJECT,
     "patient": OBJECT,
     "patient_module": OBJECT
   }
@@ -151,7 +151,7 @@ Example:
 
 function ExampleController($scope) {
   // ...
-} 
+}
 ```
 
 This section contains Javascript code which is displayed together with the template (called a view in the API) when displaying it in the user's browser. It is common to all views.
@@ -183,7 +183,7 @@ Variables in common are:
  * `lead_therapist_and_deputy`: the therapist in charge of the patient and his/her deputy if available;
  * a role like `Admin` or `Therapist` (no emails are going to be sent). Avoid this last value for generic modules as roles can vary depending on the hospital's configuration.
 * `name` is the name of the survey to be displayed to the user.
-* `host` is the key to use in order to retrieve the base URL (and credentials for LimeSurvey) from the configuration file, typically `default`. 
+* `host` is the key to use in order to retrieve the base URL (and credentials for LimeSurvey) from the configuration file, typically `default`.
 
 ### LimeSurvey
 
@@ -350,7 +350,7 @@ function main(respjson)
   -- Do something
   return json.encode(responses)
 end
-``` 
+```
 
 ## patient_group (optional, can have many)
 
@@ -368,3 +368,17 @@ modules_to_activate = module1,module2
 * `modules_to_deactivate` (optional) is for module deactivation.
 
 For more complex queries, say a `LEFT JOIN`, you can access fields from the table `patient` with `p.`.
+
+## sql_init (optional, can have many)
+
+Example:
+
+```
+[sql_init]
+
+CREATE VIEW abstract AS SELECT 1;
+```
+
+This code is executed when a module is installed and is so in a schema specially created for that module. It means accessing the main tables as to be done by prefixing `public.` to their name. When returning a view/table/function created in this schema, the API does it with a special user which only has read-only access to the other schemas. This is preventing a module from modifying the API tables but also the tables from other modules.
+
+See https://www.postgresql.org/docs/current/static/ddl-schemas.html for more detals about schemas in PostgreSQL.
