@@ -12,7 +12,7 @@
     ],
     "pluginsConfig": {
         "insert-md": {
-            "md": "![image](http://www.optinomic.com/_logo/optinomic_logo_small.png)\n\n"
+            "md": "![image](http://www.optinomic.com/_logo/optinomic_logo_trademark_indigo_25.png)\n**[Optinomic](http://www.optinomic.com)**    \n\n"
         },
         "edit-link": {
             "base": "https://github.com/Optinomic/optinomic-documentation/edit/users/",
