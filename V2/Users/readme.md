@@ -4,7 +4,19 @@
 :green_book:  Welcome & Herzlich Willkommen  
 
 
-###### Documentation
 
-:books: [http://doc.optinomic.org/](http://doc.optinomic.org/)
+## Video Einführungen
+
+:tv: ** Optinomic (Screencast) :: Nutzen statt lästige Pflicht **
+
+{% youtube %}https://www.youtube.com/watch?v=5KEoxTlsAYE{% endyoutube %}
+
+[Video-Link](https://www.youtube.com/watch?v=5KEoxTlsAYE)
+
+
+:tv: ** Optinomic (Screencast) :: Einfache Erfassung - mehrfache Verwendung **
+
+{% youtube %}https://www.youtube.com/watch?v=P4DwHBjAyww{% endyoutube %}
+
+[Video-Link](https://www.youtube.com/watch?v=P4DwHBjAyww)
 
