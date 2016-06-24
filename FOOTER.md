@@ -1,5 +1,5 @@
 
-Optinomic | Documentation: [HTML](http://doc.optinomic.org/) | [PDF](https://www.gitbook.com/download/pdf/book/optinomic/docs) | [ePub](https://www.gitbook.com/download/epub/book/optinomic/docs) | [Mobi](https://www.gitbook.com/download/mobi/book/optinomic/docs) 
+Documentation: [HTML](http://doc.optinomic.org/) | [PDF](https://www.gitbook.com/download/pdf/book/optinomic/docs) | [ePub](https://www.gitbook.com/download/epub/book/optinomic/docs) | [Mobi](https://www.gitbook.com/download/mobi/book/optinomic/docs) 
 
 
 
