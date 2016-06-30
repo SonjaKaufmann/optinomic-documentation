@@ -4,7 +4,7 @@ Every endpoint returns a JSON object with a key describing the data returned, e.
 
 ## Errors
 
-In case of errors (4xx or 5xx), a JSON object is returned with an error key, e.g. 
+In case of errors (4xx or 5xx), a JSON object is returned with an error key, e.g.
 
     $ curl localhost:3001/signin -X POST -d 'email=admin@optinomics.com'
     {"error":"Parameter \"password\" is missing."}
@@ -460,6 +460,16 @@ It's useful if a module wants to create a survey response directly without creat
 
 The JSON format is as such `{"headers": [HEADER], "rows": [OBJECT]}`.
 
+## POST /modules/:module_identifier/run_view/:view_name
+
+**Parameters:** `delimiter` (optional, default ';'), `including_headers` (for CSV, default: `True`), `format` (default: `csv`), `direct` (default: `False`)
+
+**Responses:**
+* 201 Created with a JSON like this: `{"download_url": URL}`
+* 400 Bad Request if the parameter `including_headers` is specified though the format is JSON
+
+The JSON format is as such `{"headers": [HEADER], "rows": [OBJECT]}`.
+
 ## GET /patient_groups
 
 **Parameters:** None
@@ -562,7 +572,7 @@ Return the list of all module activations, that is, all the entities in the DB e
 **Parameters:** `module_identifier`, `version`, `name_overwrite` (optional)
 
 **Responses:**
-* 400 Bad Request in case of a validation error 
+* 400 Bad Request in case of a validation error
 * 409 Conflict in case of a problem with the module dependencies
 * 200 OK with a JSON like this: `{"module_activations": [ENTITIES]}`
 
@@ -590,7 +600,7 @@ Install a module and its dependencies. Because there are potentially a lot of mo
 **Responses:**
 * 200 OK with HTML that can be shown in an iframe
 
-**Notes:** 
+**Notes:**
 * Available template identiifers are specified in the module JSON. (see GET /modules for example)
 * Some helpers are available to the module's JS. For them to work, some data need to be passed in the URL hash. Here's how to include a module view in a page:
 
@@ -688,7 +698,7 @@ Possible values from `component` are `patient-groups`, `event-generator`, `resul
 ## PUT /patients/:patient_id/modules/:module_identifier/annotations
 ## PUT /annotations
 
-**Parameters:** `value`, `benign_change` (optional, default: `False`)     
+**Parameters:** `value`, `benign_change` (optional, default: `False`)
 
 **Notes:** benign as in not important. If `benign_change` is set to `True`, the change counter will remain the same.
 
@@ -741,7 +751,7 @@ Possible values from `component` are `patient-groups`, `event-generator`, `resul
 
 **Parameters:** None
 
-**Responses:** 
+**Responses:**
 * 204 No content
 
 ## GET /access_forms
