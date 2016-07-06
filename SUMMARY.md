@@ -17,7 +17,7 @@
    * [3.01 | Users: Create](V2/Admins/users_create.md)
    * [3.02 | Users: Lock | Unlock](V2/Admins/users_lock_unlock.md)
    * [3.03 | Clinic: (De-)Activating Apps](V2/Admins/clinics_apps.md)
-   * [3.04 | Clinic: (De-)Activating Apps](V2/Admins/data_edit.md)
+   * [3.04 | Data: Edit Survey-Data](V2/Admins/data_edit.md)
    * [3.05 | Admin-Tools](V2/Admins/admin_tools.md)
 * [4.) Developers ▾](V2/Developers/readme.md)
    * [3.01 | GitHub | Repository](V2/Developers/repository.md)
