@@ -16,7 +16,7 @@
     color: #3F51B5 !important;
 }
 
-.chapter .active > a {
+.chapter > .active > a {
     color: #3F51B5 !important;
 }
 
