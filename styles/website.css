@@ -1,5 +1,23 @@
 /* CSS for website */
 
+a:link {
+    color: #424242;
+}
+
+a:visited {
+    color: #424242;
+}
+
+a:hover {
+    color: #3F51B5;
+}
+
+a:active {
+    color: #3F51B5;
+}
+
+/* Table of Contents */
+
 .page-toc:before {
     content: "Table of Contents";
     font-weight: bold;
