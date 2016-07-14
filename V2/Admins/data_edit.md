@@ -1,6 +1,6 @@
 # Optinomic | Data Edit
 
-Admins are able to `edit` Survey Data. To `edit` Survey Data you have to select the `patient` and the Application wich contains the survey data you want to edit. Inside the Patient-App you are able to select the `[Data]` Tab.
+Admins are able to `edit` Survey Data. To `edit` Survey Data you have to select the `patient` and the Application which contains the survey data you want to edit. Inside the Patient-App you are able to select the `[Data]` Tab.
 
 
 ## [ Data ] Tab
