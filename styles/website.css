@@ -1,15 +1,32 @@
 /* CSS for website */
 
-a:link {
+chapter > a:link {
     color: #424242;
+}
+
+chapter > a:visited {
+    color: #424242;
+}
+
+chapter > a:hover {
+    color: #3F51B5;
+}
+
+chapter > a:active {
+    color: #3F51B5;
+}
+
+
+a:link {
+    color: #3F51B5;
 }
 
 a:visited {
-    color: #424242;
+    color: #3F51B5;
 }
 
 a:hover {
-    color: #3F51B5;
+    color: #424242;
 }
 
 a:active {
