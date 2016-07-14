@@ -1,19 +1,19 @@
 /* CSS for website */
 
 .chapter > a:link {
-    color: #424242;
+    color: #424242 !important;
 }
 
 .chapter > a:visited {
-    color: #424242;
+    color: #424242 !important;
 }
 
 .chapter > a:hover {
-    color: #3F51B5;
+    color: #3F51B5 !important;
 }
 
 .chapter > a:active {
-    color: #3F51B5;
+    color: #3F51B5 !important;
 }
 
 
