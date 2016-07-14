@@ -16,9 +16,11 @@
     color: #3F51B5 !important;
 }
 
-.chapter > .active > a {
+.book-summary ul.summary li.active>a {
     color: #3F51B5 !important;
 }
+
+
 
 
 a:link {
