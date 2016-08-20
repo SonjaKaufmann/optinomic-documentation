@@ -11,7 +11,7 @@ We recommend the following ressources for a basic understanding:
 The following Directives are available inside Optinomic App-Templates:
 
 
-### <z-score></z-score>
+### < z-score >  
 
 ____
 
@@ -61,5 +61,5 @@ ____
 ____
 
 
-As you see in the above chart. You can easily add multiple ```HTML<z-score data="'XXX'"></z-score>``` in a row. In this situation it is recommended that you show the numbers from the ruler only on the last chart. You can control this by the toggle `show_numbers.  Also you have one special marker. The marker is shown if `marker_1_score` is not null or undifined. The color and the text is defined by `marker_1_color` and `marker_1_text`.
+As you see in the above chart. You can easily add multiple `<z-score data="'XXX'"></z-score>` in a row. In this situation it is recommended that you show the numbers from the ruler only on the last chart. You can control this by the toggle `show_numbers`.  Also you have one special marker. The marker is shown if `marker_1_score` is not null or undifined. The color and the text is defined by `marker_1_color` and `marker_1_text`.
 
