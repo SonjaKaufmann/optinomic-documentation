@@ -11,16 +11,25 @@ We recommend the following ressources for a basic understanding:
 The following Directives are available inside Optinomic App-Templates:
 
 
-### <z-score data="'XXX'"></z-score>
+### <z-score></z-score>
 
 ____
 
 ![image](http://doc.optinomic.org/images/zscore_single.png)
 ____
 
-Inside `main.js`:  The `data` property expects a JSON formatted as the following example:
 
-```js
+Inside `templates.html` the following tag is all you need.  
+
+```HTML
+<z-score data="d.zScore.tmt_a.eintritt"></z-score>
+<z-score data="d.zScore.tmt_a.austritt"></z-score>
+```
+
+
+Inside `main.js`:  The `data` property from the directive expects a JSON formatted as the following example:
+
+```JSON
 		$scope.d.zScore.tmt_a.eintritt = {
             "zscore": 1.2,
             "zscore_color" : '#C5CAE9',
@@ -42,13 +51,6 @@ Inside `main.js`:  The `data` property expects a JSON formatted as the following
         };
 ```
 
-Inside `templates.html` this simple tag is all you need:  
-
-```HTML
-<z-score data="d.zScore.tmt_a.eintritt"></z-score>
-<z-score data="d.zScore.tmt_a.austritt"></z-score>
-```
-
 
 `zscore`:  Is the main z-Score. The color of the main z-Score can be defined by `zscore_color`. `zscore_min` & `zscore_max`:  Default this is from `-3` to `3`, but this can be overwritten. All the `text_*` are the explaining texts for the user. They can be shown/hide by the toggle `show_text`. Clinic Sample is the light blue section which represents the clinical sample. The color from the sample can be overwritten by `clinicsample_color`. Also the sample can be shown/hide by the toggle `show_clinicsample`.
 
@@ -59,5 +61,5 @@ ____
 ____
 
 
-As you see in the above chart. You can easily add multiple `<z-score data="'XXX'"></z-score>` in a row. In this situation it is recommended that you show the numbers from the ruler only on the last chart. You can control this by the toggle `show_numbers.  Also you have one special marker. The marker is shown if `marker_1_score` is not null or undifined. The color and the text is defined by `marker_1_color` and `marker_1_text`.
+As you see in the above chart. You can easily add multiple ```HTML<z-score data="'XXX'"></z-score>``` in a row. In this situation it is recommended that you show the numbers from the ruler only on the last chart. You can control this by the toggle `show_numbers.  Also you have one special marker. The marker is shown if `marker_1_score` is not null or undifined. The color and the text is defined by `marker_1_color` and `marker_1_text`.
 
