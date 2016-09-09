@@ -25,5 +25,6 @@
    * [3.04 | Step by Step Instructions](V2/Developers/how_to_build_an_optinomic_app.md)
    * [3.05 | Conditions](V2/Developers/voraussetzungen.md)
    * [3.06 | Directives](V2/Developers/directives.md)
+   * [3.07 | Emails (Event, Reminder)](V2/Developers/email_template.md)
 * [4.) API](V2/Developers/api.md)
 * [5.) Clinic - Configuration](V2/Developers/config.md)
