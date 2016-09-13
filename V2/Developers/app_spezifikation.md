@@ -334,11 +334,40 @@ For patient modules, the data passed to calculations are of the following form:
     "module": OBJECT,
     "patient": OBJECT,
     "patient_module": OBJECT
-  }
+  },
+  "patient_groups": [
+    { "entity": ENTITY
+    , "patients": [ENTITY]
+    }
+  ]
 }
 ```
 
-For user modules, the data passed are the same but in an array.
+and for user modules:
+
+```
+{
+  "patients": [
+    {
+      "patient": ENTITY,
+      "survey_responses": [ENTITY],
+      "foreign_survey_responses": {"MODULE_IDENTIIFER": [ENTITY]},
+      "other_calculations": {"MODULE_IDENTIFIER:CALCULATION_IDENTIFIER": OBJECT},
+      "annotations": {
+        "module": OBJECT,
+        "patient": OBJECT,
+        "patient_module": OBJECT
+      }
+    }
+  ],
+  "patient_groups": [
+    {
+      "entity": ENTITY,
+      "patients": [ENTITY]
+    }
+  ]
+}
+```
 
 For Lua calculations, this is a bit more complicated: responses are passed to the function `main` as plain text and so should be the returning object. For that purpose, the function `dkjson` returns an object which can be used to encode/decode JSON. (dkjson library by David Kolf, see http://dkolf.de/src/dkjson-lua.fsl/home). Here is a short example:
 
