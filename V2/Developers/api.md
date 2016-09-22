@@ -460,6 +460,13 @@ It's useful if a module wants to create a survey response directly without creat
 
 The JSON format is as such `{"headers": [HEADER], "rows": [OBJECT]}`.
 
+## GET /modules/:module_identifier/sql_views
+
+**Parameters:** None
+
+**Responses:**
+* 200 OK with a JSON like this: `{"sql_views": [STRING]}`
+
 ## POST /modules/:module_identifier/run_view/:view_name
 
 **Parameters:** `delimiter` (optional, default ';'), `including_headers` (for CSV, default: `True`), `format` (default: `csv`), `direct` (default: `False`)
