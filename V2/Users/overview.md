@@ -3,7 +3,7 @@
 
 ## Video | Screencasts
 
-Folgende Videos sthen zur Verfügung:
+Folgende Videos stehen zur Verfügung:
 
 ____
 
